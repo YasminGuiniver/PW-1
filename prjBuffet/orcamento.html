@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
+
+    <title>Queens of Buffets</title>
+
+    <script type='text/javascript' src="js/orcamento.js"></script>
+  </head>
+  <body>
+      
+      <h1><img src="images/logo-buffet.png"></h1>
+
+      <nav>
+        <ul id="menu">
+            <li><a href="index.html">Página Inicial</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="orcamento.html">Orçamento</a></li>
+        </ul>
+      </nav>
+
+      <h2>Orçamento</h2>
+
+      <form name='form'>
+
+        <label>Nome: </label>
+        <input type='text' id='nome' name="nome" size="60">
+        
+        <label>Email: </label>
+        <input type='email' id='email' name="email" size="60">
+
+        <br>
+
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" placeholder="(xx) xxxxx-xxxxx" size="30" maxlength="15">
+
+        <label>Endereço:</label>
+			  <input type="text" name="endereco" id="endereco" size="80"/>
+
+        <br>
+
+        <label>Cidade:</label>
+        <input type='text' id='cid' name="cid" size="60">
+
+        <label>CEP:</label>
+        <input type="text" name="cep" id="cep" placeholder="xxxxx-xxx" size="40" maxlength="9">
+
+        <br>
+
+        <label>Data do Casamento:</label>
+        <input type="date" name="data" id="data">
+        
+      
+
+        <label>Cardápio:</label>
+        <select id="tipo" name="tipo">
+            <option value="1">Churrasco</option> 
+            <option value="2">Frutos do mar</option>
+            <option value="3">Feijoada</option> 
+            <option value="4">Crepes</option> 
+            <option value="5">Coquetel</option>
+            <option value="6">Coquetel Premium</option> 
+        </select>
+
+        <label>Quantidade de Convidados:</label>
+        <input type='text' id='qtde' name="qtde" size="10">
+
+        <br>
+
+        <div class="obser">
+          <label>Observações:</label>
+        </div>
+
+        <textarea name="obs" id="obs" cols="50" rows="5"></textarea>
+
+        <br>
+
+        <input type="checkbox" name="termos" id="termos" value="true"/> 
+			  Concordo com os termos e condições.
+
+        <br>
+
+        <input id="botao" type='button' value='Realizar orçamento' onclick="salvar()">
+       
+    </form>
+
+    <br>
+    <hr>
+
+    <h2>Resumo do Orçamento</h2>
+
+    <br>
+    
+    <form id="formTotal">
+
+        <label>Nome:</label> 
+        <input type='text' id='txtNomeCliente' name='txtNomeCliente' size="60" readonly='readonly' value=''>
+
+        <label>Email: </label>
+        <input type='email' id='emailCliente' name='emailCliente' size="60" readonly='readonly' value=''>
+
+        <br>
+
+        <label>Telefone:</label>
+        <input type="tel" name='telCliente' id='telCliente' placeholder="(xx) xxxxx-xxxxx" readonly='readonly' value=''>
+
+        <label>Endereço:</label>
+        <input type="text" name='txtEnd' id='txtEnd' size="80" readonly='readonly' value=''/>
+
+        <br>
+
+        <label>Cidade:</label>
+        <input type='text' id='txtCid' name='txtCid' size="60" readonly='readonly' value=''>
+
+        <label>CEP:</label>
+        <input type="text" name='txtCep' id='txtCep' placeholder="xxxxx-xxx" size="40" readonly='readonly' value=''>
+
+
+        <br>
+
+        <label>Data do Casamento:</label>
+        <input type="date" name='dateEvento' id='dateEvento' readonly='readonly' value=''>
+        
+
+        <label>Cardápio:</label>
+        <input type='text' id='txtCardapio' name='txtCardapio' readonly='readonly' value=''>
+        
+
+        <label>Quantidade de Convidados:</label>
+        <input type='text' id='txtQtde' name='txtQtde' readonly='readonly' value=''>
+
+        <br>
+
+        <label>Valor Total do Orçamento:</label>
+        <input type='text' id='txtValorTotal' name='txtValorTotal' readonly='readonly' value=''>
+    </form>
+
+    <div id="rodape">
+      <br>
+      <div id="contato">Contato</div>
+      <hr id="hr-rodape">
+      <img id="logo-rodape" src="images/logo-rodape.png" >
+      <img id="icone-endereco" src="images/icone-localizacao.png">
+      <div id="rodape-endereco">Rua Qualquer – 123, São Paulo</div>
+      <img id="icone-email" src="images/icone-email.png">
+      <div id="rodape-email">queensofbuffets@email.com</div>
+      <img id="icone-fone" src="images/icone-telefone.png">
+      <div id="fone">(xx) xxxxx-xxxxx</div>
+      <div class="icones">
+        
+        <img id="whatsaap" src="images/icone-whatsapp.png" >
+        <img id="facebook" src="images/icone-facebook.png">
+        <img id="instagram" src="images/icone-instagram.png">
+        <img id="twitter" src="images/icone-twitter.png">
+      </div>
+    </div>
+
+    <div id="rodape2">
+      <br>
+      ©2021. Queens of Buffets. Todos os direitos reservados.
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

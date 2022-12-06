@@ -1,0 +1,310 @@
+body{    
+    background: #133027;
+    font-family: Century Gothic;
+    text-align: center;
+    line-height: 180%;
+}
+h1{
+    background-color: #FFFAE0;
+    line-height: 200%;
+}
+#logo{
+    height: 100px;
+}
+nav{
+    position: sticky;
+    z-index: 9900;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    background: #74703f;
+}
+ul{
+    width: 100%;
+    list-style: none;
+    margin-bottom: -8px;
+}
+li a{
+    width: 25%;
+    height: 50px;
+    float: left;
+    text-decoration: none;
+    color: #FFFAE0;
+    font-size: 30px;
+    line-height: 160%;
+}
+li a:hover{
+    background: #702e1b;
+    color: #FFFAE0;
+}
+h2{
+    margin-top: 17px;
+    color: #E7D0C0;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.card1{
+    margin: 30px;
+}
+.img-cardapio1{
+    filter: brightness(75%);
+    width: 387px;
+    height: 220px;
+}
+.cardapio1{
+    margin-top: 20px;
+    width: 398px;
+    height: 230px;
+    border: 5px solid #F2BB6D;
+}
+#t-churrasco{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 7%;
+    color: #F4EBD0;
+}
+#saiba-mais{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -4.7%;
+    color: #FFFAE0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.img-cardapio2{
+    filter: brightness(75%);
+    width: 388px;
+    height: 220px;
+}
+.cardapio2{
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 35.6%;
+    width: 398px;
+    height: 230px;
+    border: 5px solid #F2BB6D;
+}
+#t-coquetel{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 26.6%;
+    color: #F4EBD0;
+}
+#saiba-mais2{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -17%;
+    color: #FFFAE0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.img-cardapio3{
+    filter: brightness(75%);
+    width: 388px;
+    height: 220px;
+}
+.cardapio3{
+    position: absolute;
+    margin-top: -260px;
+    margin-left: 68.9%;
+    width: 398px;
+    height: 230px;
+    border: 5px solid #F2BB6D;
+}
+#t-feijoada{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 28%;
+    color: #F4EBD0;
+}
+#saiba-mais3{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -17px;
+    color: #FFFAE0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.img-cardapio4{
+    filter: brightness(75%);
+    width: 388px;
+    height: 220px;
+}
+.cardapio4{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 2.2%;
+    width: 398px;
+    height: 230px;
+    border: 5px solid #F2BB6D;
+}
+#t-frutosmar{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 17%;
+    color: #F4EBD0;
+}
+#saiba-mais4{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -17px;
+    color: #FFFAE0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.img-cardapio5{
+    filter: brightness(75%);
+    width: 388px;
+    height: 220px;
+}
+.cardapio5{
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 35.6%;
+    width: 398px;
+    height: 230px;
+    border: 5px solid #F2BB6D;
+}
+#t-crepes{
+    position: absolute;
+    margin-top: -160px;
+    margin-left: 31.5%;
+    color: #F4EBD0;
+}
+#saiba-mais5{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -17%;
+    color: #FFFAE0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.img-cardapio6{
+    filter: brightness(75%);
+    width: 388px;
+    height: 220px;
+}
+.cardapio6{
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 68.9%;
+    width: 398px;
+    height: 230px;
+    border: 5px solid #F2BB6D;
+}
+#t-premium{
+    position: absolute;
+    margin-top: -178px;
+    margin-left: 8%;
+    margin-right: 8%;
+    color: #F4EBD0;
+} 
+#saiba-mais6{
+    position: absolute;
+    margin-top: -70px;
+    margin-left: -17%;
+    color: #FFFAE0;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.card-body{
+    z-index: 100;
+    width: 398px;
+    margin-left: -1.3%;
+    position: relative;
+    border: 5px solid #F2BB6D;
+    background-color: #FFFAE0;
+}
+#rodape{    
+    margin-top: 25px;
+    height: 230px;
+    background: #FFFAE0;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333333;
+}
+#contato{
+    margin-left: 17.5%;
+    color: #E1A140;
+}
+#logo-rodape{
+    height: 140px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -45%;
+}
+.icones{
+    display: flex;
+    margin-left: 41.5%;
+    margin-top: 25px;
+}
+#hr-rodape{
+    margin-left: 29%;
+    width: 795px;
+}
+#icone-endereco{
+    position: absolute;
+    height: 24px;
+    margin-top: 6px;
+    margin-left: -19%;
+}
+#endereco{
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 32.6%;
+}
+#icone-fone{
+    position: absolute;
+    height: 26px;
+    margin-top: 67px;
+    margin-left: -15.2%;
+}
+#fone{
+    position: absolute;
+    margin-top: 62px;
+    margin-bottom: 10px;
+    margin-left: 37%;
+}
+#icone-email{
+    position: absolute;
+    height: 26px;
+    margin-top: 8px;
+    margin-left: 13.4%;
+}
+#email{
+    position: absolute;
+    margin-left: 66.2%;
+    margin-top: 5px;
+}
+#whatsaap{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25.3%;
+    height: 40px;
+}
+#facebook{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 29.3%;
+    height: 40px;
+}
+#instagram{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 33.4%;
+    height: 40px;
+}
+#twitter{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 37.2%;
+    height: 40px;
+}
+#rodape2{
+    height: 80px;
+    background: #333333;
+    color: #F4EBD0;
+    font-size: 19px;
+}

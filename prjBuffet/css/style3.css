@@ -1,0 +1,169 @@
+body{
+    background: #391306;
+    font-family: Century Gothic;
+    text-align: center;
+    line-height: 180%;
+}
+h1{
+    background-color: #FFFAE0;
+    line-height: 200%;
+}
+#logo{
+    height: 100px;
+}
+nav{
+    position: sticky;
+    z-index: 9900;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    background: #a5783d;
+}
+ul{
+    width: 100%;
+    list-style: none;
+    margin-bottom: -8px;
+}
+li a{
+    width: 25%;
+    height: 50px;
+    float: left;
+    text-decoration: none;
+    color: #FFFAE0;
+    font-size: 30px;
+    line-height: 160%;
+}
+li a:hover{
+    background: #6e613c;
+    color: #FFFAE0;
+}
+h2{
+    margin-top: 17px;
+    color: #F4EBD0;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.galeria{
+    margin-top: 20px;
+    width: 300px;
+    height: 220px;
+    border: 5px solid #F2BB6D;
+}
+.imgs{
+    width: 290px;
+    height: 210px;
+}
+.coluna1{
+    margin-top: 20px;
+    margin-left: 1.5%;
+}
+.coluna2{
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 26.5%;
+    margin-bottom: 20px;
+}
+.coluna3{
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 51.2%;
+    margin-bottom: 20px;
+}
+.coluna4{
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 76%;
+    margin-bottom: 20px;
+}
+#rodape{    
+    margin-top: 25px;
+    height: 230px;
+    background: #FFFAE0;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #333333;
+}
+#contato{
+    margin-left: 17.5%;
+    color: #E1A140;
+}
+#logo-rodape{
+    height: 140px;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -45%;
+}
+.icones{
+    display: flex;
+    margin-left: 41.5%;
+    margin-top: 25px;
+}
+#hr-rodape{
+    margin-left: 29%;
+    width: 795px;
+}
+#icone-endereco{
+    position: absolute;
+    height: 24px;
+    margin-top: 6px;
+    margin-left: -19%;
+}
+#endereco{
+    position: absolute;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 32.6%;
+}
+#icone-fone{
+    position: absolute;
+    height: 26px;
+    margin-top: 67px;
+    margin-left: -15.2%;
+}
+#fone{
+    position: absolute;
+    margin-top: 62px;
+    margin-bottom: 10px;
+    margin-left: 37%;
+}
+#icone-email{
+    position: absolute;
+    height: 26px;
+    margin-top: 8px;
+    margin-left: 13.4%;
+}
+#email{
+    position: absolute;
+    margin-left: 66.2%;
+    margin-top: 5px;
+}
+#whatsaap{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25.3%;
+    height: 40px;
+}
+#facebook{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 29.3%;
+    height: 40px;
+}
+#instagram{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 33.4%;
+    height: 40px;
+}
+#twitter{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 37.2%;
+    height: 40px;
+}
+#rodape2{
+    height: 80px;
+    background: #333333;
+    color: #F4EBD0;
+    font-size: 19px;
+}
