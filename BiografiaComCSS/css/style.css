@@ -1,0 +1,19 @@
+body {
+    color:#000;
+    background:#E688F5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px
+}
+h1{
+    color:#000;
+    background:#91A0FA;
+    font-family:'Times New Roman', Times, serif;
+    font-size:60px;
+    text-transform: uppercase;
+    text-align:center;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 400px;
+}
